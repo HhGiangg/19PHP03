@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.resginter {
+    width: 60%;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px #000 solid;
+    height: 700px;
+}
+
+.information,
+.form {
+    width: 50%;
+    float: left;
+    height: 630px;
+}
+
+.information {
+    background-color: rgb(241, 241, 241);
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: #000 2px 2px 2px;
+    color: purple;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+}
+
+.input .input-re {
+    width: 80%;
+    height: 35px;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 5px;
+}
+
+.choose {
+    width: 20px;
+    height: 20px;
+}
+
+.input span {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btn-control {
+    width: 20%;
+    margin: 20px 30%;
+    text-align: center;
+    height: 30px;
+}
+
+[class*="error"] {
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+}
