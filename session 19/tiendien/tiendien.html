@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tiendien.css">
+</head>
+
+<body>
+    <h1>phieu tinh tien dien</h1>
+    <form name="tiendien" action="#" class="form-tiendien">
+        <div class="input-control">
+            <div class="text">
+                Ho va ten
+            </div>
+            <div class="input">
+                <input type="text" name="name" id="name">
+                <span class="error">error</span>
+            </div>
+        </div>
+        <div class="input-control">
+            <div class="text">
+                So dien dau ky
+            </div>
+            <div class="input">
+                <input type="number" name="first_number" id="first_number">
+                <span class="error">error</span>
+
+            </div>
+        </div>
+        <div class="input-control">
+            <div class="text">
+                So dien cuoi ky
+            </div>
+            <div class="input">
+                <input type="number" name="last_number" id="last_number">
+                <span class="error">error</span>
+
+            </div>
+        </div>
+        <div class="input-control">
+            <div class="text">
+                Ngay dau ky
+            </div>
+            <div class="input">
+                <input type="date" name="first_date" id="first_date">
+                <span class="error">error</span>
+
+            </div>
+        </div>
+        <div class="input-control">
+            <div class="text">
+                Ngay cuoi ky
+            </div>
+            <div class="input">
+                <input type="date" name="last_date" id="last_date">
+                <span class="error">error</span>
+
+            </div>
+        </div>
+        <div class="input-control">
+            <input type="button" name="tinhtiendien" value="Tinh tien dien" onclick="tinhTienDien()">
+        </div>
+    </form>
+    <script src="tiendien.js"></script>
+</body>
+
+</html>

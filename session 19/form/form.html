@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>Đăng kí thành viên</h1>
+    <div class="resginter">
+        <div class="container">
+            <div class="form">
+                <form action="#" name="resginter">
+                    <h3>Họ và tên</h3>
+                    <div class="input">
+                        <input type="text" name="fullname" class="input-re">
+                        <p class="errorName"></p>
+                    </div>
+                    <h3>Giới tính</h3>
+                    <div class="input">
+                        <input type="radio" name="gender" value="male" class="choose">
+                        <span>Nam</span>
+                        <input type="radio" name="gender" value="female" class="choose">
+                        <span>Nữ</span>
+                        <input type="radio" name="gender" value="option" class="choose">
+                        <span>Khác</span>
+                        <p class="errorGender"></p>
+                    </div>
+                    <h3>Ngày sinh</h3>
+                    <div class="input">
+                        <input type="date" name="birthday" class="input-re">
+                        <p class="errorBirthday"></p>
+                    </div>
+                    <h3>Tỉnh/Thành phố</h3>
+                    <div class="input">
+                        <select name="city" class="input-re">
+                            <option value="" checked>Tỉnh/Thành phố</option>
+                            <option value="Quảng Nam">Quảng Nam</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Huế">Huế</option>
+                        </select>
+                        <p class="errorCity"></p>
+                    </div>
+                    <input type="button" value="Đăng kí" class="btn-control" onclick="check()">
+                </form>
+            </div>
+            <div class="information"></div>
+        </div>
+
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
