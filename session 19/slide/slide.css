@@ -1,0 +1,15 @@
+.neoslideshow {
+    position: relative;
+    width: 500px;
+    height: 260px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.neoslideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
