@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>máy tính</title>
+	<meta charset="utf-8">
+	<meta name="description" content="....">
+	<link rel="stylesheet" href="maytinh.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="display-board">
+			<div class="clock">
+				<img src="img/xoay.png" alt="clock">
+			</div>
+
+			<div class="ans">
+				<p></p>
+			</div>
+
+			<div class="ouput">
+				<label id="result">0</label>
+			</div>
+		</div>
+
+		<div class="button-board">
+			
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-rad" onclick="clickButton(this)">Rad</button>
+				</div>
+
+				<div class="button">
+					<button class="button-inv" onclick="clickButton(this)">Inv</button>
+				</div>
+
+				<div class="button">
+					<button class="button-pi" onclick="clickButton(this)">&#960;</button>
+				</div>
+				<div class="button">
+					<button class="button-e" onclick="clickButton(this)">e</button>
+				</div>
+				<div class="button">
+					<button class="button-ans" onclick="clickButton(this)">Ans</button>
+				</div>
+			</div>
+
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-deg" onclick="clickButton(this)">Deg</button>
+				</div>
+				<div class="button">
+					<button class="button-sin" onclick="clickButton(this)">Sin</button>
+				</div>
+				<div class="button">
+					<button class="button-cos" onclick="clickButton(this)">Cos</button>
+				</div>
+
+				<div class="button">
+					<button class="button-tan" onclick="clickButton(this)">tan</button>
+				</div>
+				<div class="button">
+					<button class="button-exp" onclick="clickButton(this)">EXP</button>
+				</div>
+			</div>
+			
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-x" onclick="clickButton(this)">x!</button>
+				</div>
+				<div class="button">
+					<button class="button-ln" onclick="clickButton(this)">ln</button>
+				</div>
+				<div class="button">
+					<button class="button-log" onclick="clickButton(this)">log</button>
+				</div>
+				<div class="button">
+					<button class="button-can" onclick="clickButton(this)">&#8730;</button>
+				</div>
+				<div class="button">
+					<button class="button-mu" onclick="clickButton(this)">^</button>
+				</div>
+			</div>
+
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-ngoac-trai">(</button>
+				</div>
+				<div class="button">
+					<button class="button-7" onclick="clickButton(this)">7</button>
+				</div>
+				<div class="button">
+					<button class="button-4" onclick="clickButton(this)">4</button>
+				</div>
+				<div class="button">
+					<button class="button-1" onclick="clickButton(this)">1</button>
+				</div>
+				<div class="button">
+					<button class="button-0" onclick="clickButton(this)">0</button>
+				</div>
+			</div>
+			
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-ngoac-phai" onclick="clickButton(this)">)</button>
+				</div>
+				<div class="button">
+					<button class="button-8" onclick="clickButton(this)">8</button>
+				</div>
+				<div class="button">
+					<button class="button-5" onclick="clickButton(this)">5</button>
+				</div>
+				<div class="button">
+					<button class="button-2" onclick="clickButton(this)">2</button>
+				</div>
+				<div class="button">
+					<button class="button-cham" style="font-size: 25px;" onclick="clickButton(this)">.</button>
+				</div>
+			</div>
+
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-phan-tram" onclick="clickButton(this)">%</button>
+				</div>
+				<div class="button">
+					<button class="button-9" onclick="clickButton(this)">9</button>
+				</div>
+				<div class="button">
+					<button class="button-6" onclick="clickButton(this)">6</button>
+				</div>
+				<div class="button">
+					<button class="button-3" onclick="clickButton(this)">3</button>
+				</div>
+				<div class="button">
+					<button class="button-bang" onclick="clickButton(this)">=</button>
+				</div>
+			</div>
+
+			<div class="colum-button">
+				<div class="button">
+					<button class="button-ce" onclick="clickButton(this)">CE</button>
+				</div>
+				<div class="button">
+					<button class="button-chia" onclick="clickButton(this)">:</button>
+				</div>
+				<div class="button">
+					<button class="button-nhan" onclick="clickButton(this)">x</button>
+				</div>
+				<div class="button">
+					<button class="button-tru" onclick="clickButton(this)">-</button>
+				</div>
+				<div class="button">
+					<button class="button-cong" onclick="clickButton(this)">+</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/maytinh.js"></script>
+
+</body>
+</html>
